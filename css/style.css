@@ -34,6 +34,7 @@ img{
 
 .webapp__img-prop{
     object-fit: fill;
+    width: 250px;
 }
 
 .webapp__img{
