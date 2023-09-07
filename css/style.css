@@ -12,6 +12,8 @@ html{
 
 body{
    max-height: 100vh;
+   display: flex;
+   flex-direction: column;
 }
 
 .container{
@@ -20,7 +22,8 @@ body{
 }
 
 img{
-    width: 100%;
+    display: block;
+    max-width: 100%;
 }
 
 /* section */
@@ -30,7 +33,25 @@ img{
 .img-container{
     display: flex;
     flex-wrap: nowrap;
-    justify-content: center;
+    padding: 10px;
+}
+
+.webapp__img{
+    position: relative;
+}
+.webapp__img-prop{
+    object-fit: fill;
+}
+
+.zoom-id{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    line-height: 20px;
+}
+.zoom-id__color{
+    background-color: rgba(128, 128, 128, 0.301);
+    color: white;
 }
 /* debug */
 
