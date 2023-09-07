@@ -20,18 +20,26 @@ img{
     flex-grow: 1;
     background-color: black;
     position: relative;
-    overflow-y: scroll
  }
 
  .webapp__tools{
     font-size: 12px;
-    color: white;
-    background-color: #4A4A4A;
+    color: white;   
     position: absolute;
-    top: 0;
-    right: 0;
+    top: 3px;
+    right: 3px;
     gap: 5px;
- }
+}
+.webapp__tools-col{
+    background-color:#4A4A4A;
+    line-height: 10px;
+    padding: 4.4px;
+    border-radius: 5px;
+}
+.fa-table-cells{
+    margin-right: 3px;
+}
+
 .webapp__content{
     height: 100vh;
     display: flex;
