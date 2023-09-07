@@ -84,6 +84,7 @@ img{
 }
 
 .toolbar-icon{
+    padding: 0px 20px;
     font-size: 25px;
 }
 
@@ -93,12 +94,7 @@ img{
 }
 
 .arrow-icon{
-    padding: 0px 20px;
     font-size: 12px;
+    padding: 0px 10px;
 }
-/* debug */
 
-.debug .webapp-content{
-    background-color: black;
-    padding-top: 50px;
-}
