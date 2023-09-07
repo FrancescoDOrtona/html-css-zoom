@@ -10,27 +10,26 @@ html{
     font-family: 'Rubik', sans-serif;
 }
 
-body{
-   max-height: 100vh;
-   display: flex;
-   flex-direction: column;
-}
 
 img{
-    display: block;
     width: 100%;
 }
 
 /* section */
+ .webapp{
+    flex-grow: 1;
+    background-color: black;
+ }
 
-
-
+.webapp__content{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;  
+}
 .img-container{
     display: flex;
-    flex-wrap: wrap;
-    padding: 10px;    
-    background-color: black;
-    padding-top: 50px;
+    flex-wrap: wrap;    
+    padding: 80px 80px 20px 80px;
 }
 
 .webapp__img-prop{
@@ -44,10 +43,11 @@ img{
 .zoom-id{
     position: absolute;
     left: 0;
-    bottom: 0;
-    line-height: 20px;
+    bottom: 5px;
+    
 }
 .zoom-id__color{
+    font-size: 12px;
     background-color: rgba(128, 128, 128, 0.301);
     color: white;
 }
