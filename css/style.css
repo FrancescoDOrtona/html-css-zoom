@@ -72,7 +72,11 @@ img{
     display: flex;
     flex-wrap: nowrap;
 }
-
+.webapp-toolbar__section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
 .webapp-toolbar__content{
     display: flex;
     flex-direction: column;
@@ -88,7 +92,10 @@ img{
     margin-top: 8px;
 }
 
-
+.arrow-icon{
+    padding: 0px 20px;
+    font-size: 12px;
+}
 /* debug */
 
 .debug .webapp-content{
