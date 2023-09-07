@@ -15,12 +15,23 @@ img{
     width: 100%;
 }
 
-/* section */
+/* Main section */
  .webapp{
     flex-grow: 1;
     background-color: black;
+    position: relative;
+    overflow-y: scroll
  }
 
+ .webapp__tools{
+    font-size: 12px;
+    color: white;
+    background-color: #4A4A4A;
+    position: absolute;
+    top: 0;
+    right: 0;
+    gap: 5px;
+ }
 .webapp__content{
     height: 100vh;
     display: flex;
@@ -29,7 +40,7 @@ img{
 .img-container{
     display: flex;
     flex-wrap: wrap;    
-    padding: 80px 80px 20px 80px;
+    padding: 60px 60px 20px 60px;
 }
 
 .webapp__img-prop{
@@ -66,7 +77,7 @@ img{
     background-color: #222222;
     color: white;
     justify-content: space-between;
-    padding: 10px;
+    min-height: 7vh;
 }
 .row{
     display: flex;
@@ -98,3 +109,12 @@ img{
     padding: 0px 10px;
 }
 
+.share-button{
+    color: #4BC800;
+}
+.end-button{
+    background-color: #4A4A4A;
+    font-size: 12px;
+    color: red;
+    padding: 0px 10px;
+}
