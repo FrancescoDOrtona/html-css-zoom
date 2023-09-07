@@ -60,14 +60,38 @@ img{
 .mic-icon{
     margin-right: 3px;
 }
+
+/* Toolbar */
+.webapp-toolbar{
+    background-color: #222222;
+    color: white;
+    justify-content: space-between;
+    padding: 10px;
+}
+.row{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.webapp-toolbar__content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.toolbar-icon{
+    font-size: 25px;
+}
+
+.icon-name{
+    font-size: 12px;
+    margin-top: 8px;
+}
+
+
 /* debug */
 
 .debug .webapp-content{
     background-color: black;
     padding-top: 50px;
-}
-
-.debug .webapp-toolbar{
-    background-color: grey;
-    padding: 30px;
 }
