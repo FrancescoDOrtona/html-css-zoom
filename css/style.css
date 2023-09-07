@@ -16,14 +16,9 @@ body{
    flex-direction: column;
 }
 
-.container{
-    max-width: 1400px;
-    margin: 0 auto;
-}
-
 img{
     display: block;
-    max-width: 100%;
+    width: 100%;
 }
 
 /* section */
@@ -32,15 +27,18 @@ img{
 
 .img-container{
     display: flex;
-    flex-wrap: nowrap;
-    padding: 10px;
+    flex-wrap: wrap;
+    padding: 10px;    
+    background-color: black;
+    padding-top: 50px;
+}
+
+.webapp__img-prop{
+    object-fit: fill;
 }
 
 .webapp__img{
     position: relative;
-}
-.webapp__img-prop{
-    object-fit: fill;
 }
 
 .zoom-id{
