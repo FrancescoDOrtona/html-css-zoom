@@ -13,6 +13,7 @@ html{
 
 img{
     width: 100%;
+    display: block;
 }
 
 /* Main section */
@@ -67,7 +68,7 @@ img{
 .zoom-id{
     position: absolute;
     left: 0;
-    bottom: 5px;   
+    bottom: 0px;   
 }
 .zoom-id__color{
     font-size: 12px;
